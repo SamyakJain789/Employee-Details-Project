@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+    background-color: #000;
+    color: #fff;
+    margin-left: 5%;
+    font-family: "Libre Baskerville", serif;
+}
+
+.form {
+    display: flex;
+    flex-flow: row;
+}
+
+h3 {
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.group {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 29%;
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+.group input {
+    background-color: transparent;
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+}
+
+.adding {
+    position: absolute;
+    top: 200px;
+}
+
+.adding button {
+    padding: 8px;
+}
+
+.container {
+    margin-top: 160px;
+}
+
+.no_of_emp {
+    font-weight: lighter;
+    color: #626262;
+    display: block;
+}
+
+.error {
+    color: #FF4343;
+    display: none;
+}
+
+.success {
+    color: #43FF78;
+    display: none;
+}
+
+.box-container {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.details {
+    margin-top: 5px;
+    border: 1px solid white;
+    font-weight: 300;
+    width: 450px;
+    min-width: 300px;
+    padding: 0.5rem;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.details span {
+    margin-left: 10px;
+}
+
+.del {
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #f6efef;
+    border-radius: 50px;
+}
+
+.box-insider {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
